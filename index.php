@@ -62,7 +62,7 @@
 		<!-- Header desktop -->
 		<div class="container-menu-desktop fix-menu-desktop ">
 
-			<div class="wrap-menu-desktop how-shadow1">
+			<div class="wrap-menu-desktop">
 				<nav class="limiter-menu-desktop container">
 
 					<!-- Logo desktop -->
