@@ -60,7 +60,7 @@
 	<!-- Header -->
 	<header>
 		<!-- Header desktop -->
-		<div class="container-menu-desktop">
+		<div class="container-menu-desktop fix-menu-desktop ">
 
 			<div class="wrap-menu-desktop how-shadow1">
 				<nav class="limiter-menu-desktop container">
