@@ -50,7 +50,7 @@
 					<nav class="limiter-menu-desktop container">
 	
 						<!-- Logo desktop -->
-						<a href="index.html" class="logo">
+						<a href="index.php" class="logo">
 							<img src="images/icons/logo-01.png" alt="IMG-LOGO">
 						</a>
 	
@@ -58,15 +58,15 @@
 						<div class="menu-desktop">
 							<ul class="main-menu">
 								<li>
-									<a href="index.html"><b>Du lịch Tây Đô</b></a>
+									<a href="index.php"><b>Du lịch Tây Đô</b></a>
 								</li>
 	
 								<li>
-									<a href="blog.html"><b>Dịch vụ</b></a>
+									<a href="blog.php"><b>Dịch vụ</b></a>
 								</li>
 	
 								<li>
-									<a href="contact.html"><b>Liên Hệ</b></a>
+									<a href="contact.php"><b>Liên Hệ</b></a>
 								</li>
 							</ul>
 						</div>
@@ -90,7 +90,7 @@
 			<div class="wrap-header-mobile">
 				<!-- Logo moblie -->
 				<div class="logo-mobile">
-					<a href="index.html"><img src="images/icons/logo-01.png" alt="IMG-LOGO"></a>
+					<a href="index.php"><img src="images/icons/logo-01.png" alt="IMG-LOGO"></a>
 				</div>
 	
 				<!-- Icon header -->
@@ -123,15 +123,15 @@
 				<ul class="main-menu-m">
 	
 					<li>
-						<a href="index.html">Du lịch Tây Đô</a>
+						<a href="index.php">Du lịch Tây Đô</a>
 					</li>
 	
 					<li>
-						<a href="blog.html">Dịch vụ</a>
+						<a href="blog.php">Dịch vụ</a>
 					</li>
 	
 					<li>
-						<a href="contact.html">Liên hệ</a>
+						<a href="contact.php">Liên hệ</a>
 					</li>
 				</ul>
 			</div>
@@ -429,25 +429,25 @@
 	
 						<ul>
 							<li class="p-b-10">
-								<a href="product.html" class="stext-107 cl7 hov-cl1 trans-04">
+								<a href="product.php" class="stext-107 cl7 hov-cl1 trans-04">
 									Xe 4 chỗ
 								</a>
 							</li>
 	
 							<li class="p-b-10">
-								<a href="product.html" class="stext-107 cl7 hov-cl1 trans-04">
+								<a href="product.php" class="stext-107 cl7 hov-cl1 trans-04">
 									Xe 7 chỗ
 								</a>
 							</li>
 	
 							<li class="p-b-10">
-								<a href="product.html" class="stext-107 cl7 hov-cl1 trans-04">
+								<a href="product.php" class="stext-107 cl7 hov-cl1 trans-04">
 									Xe 16 chỗ
 								</a>
 							</li>
 	
 							<li class="p-b-10">
-								<a href="product.html" class="stext-107 cl7 hov-cl1 trans-04">
+								<a href="product.php" class="stext-107 cl7 hov-cl1 trans-04">
 									Xe 45 chỗ
 								</a>
 							</li>
@@ -619,7 +619,7 @@
 			});
 	
 			$('.js-addwish-b2').each(function () {
-				var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
+				var nameProduct = $(this).parent().parent().find('.js-name-b2').php();
 				$(this).on('click', function () {
 					swal(nameProduct, "is added to wishlist !", "success");
 	
@@ -629,7 +629,7 @@
 			});
 	
 			$('.js-addwish-detail').each(function () {
-				var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();
+				var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').php();
 	
 				$(this).on('click', function () {
 					swal(nameProduct, "is added to wishlist !", "success");
@@ -642,7 +642,7 @@
 			/*---------------------------------------------*/
 	
 			$('.js-addcart-detail').each(function () {
-				var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();
+				var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').php();
 				$(this).on('click', function () {
 					swal(nameProduct, "is added to cart !", "success");
 				});
