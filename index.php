@@ -56,102 +56,82 @@
 </head>
 
 <body class="animsition">
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Navbar</title>
+        <!-- font-awesome -->
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        />
 
-	<!-- Header -->
-	<header>
-		<!-- Header desktop -->
-		<div class="container-menu-desktop">
-			<!-- Topbar -->
+        <!-- styles -->
+        <link rel="stylesheet" href="styles.css" />
+      </head>
+      <body>
+        <nav>
+          <div class="nav-center">
+            <!-- nav header -->
+            <div class="nav-header">
+              <h2>TekLinco</h2>
+              <!-- <img src="./logo.svg" class="logo" alt="logo" /> -->
+              <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+              </button>
+            </div>
+            <!-- links -->
+            <ul class="links">
+              <li>
+                <a href="index.html">home</a>
+              </li>
+              <li>
+                <a href="about.html">Services</a>
+              </li>
+              <li>
+                <a href="projects.html">Portfolio</a>
+              </li>
+              <li>
+                <a href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <!-- social media -->
+            <ul class="social-icons">
+              <li>
+                <a href="#">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.twitter.com">
+                  <i class="fab fa-instagram-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fas fa-cart-plus"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- javascript -->
+        <script src="app.js"></script>
+      </body>
+    </html>
 
-
-			<div class="wrap-menu-desktop">
-				<nav class="limiter-menu-desktop container">
-
-					<!-- Logo desktop -->
-					<a href="#" class="logo">
-						<img src="images/icons/logo-01.png" alt="IMG-LOGO">
-					</a>
-
-					<!-- Menu desktop -->
-					<div class="menu-desktop">
-						<ul class="main-menu">
-							<li>
-								<a href="index.php"><b>Du lịch Tây Đô</b></a>
-							</li>
-
-							<li>
-								<a href="product.php"><b>Dịch vụ</b></a>
-							</li>
-
-							<li>
-								<a href="contact.php"><b>Liên Hệ</b></a>
-							</li>
-						</ul>
-					</div>
-
-					<!-- Icon header -->
-					<div class="wrap-icon-header flex-w flex-r-m">
-						<div class="p-t-18" style="padding-top: 0px;">
-							<a href="tel:0888864868">
-								<button class="flex-c-m stext-101 cl0 size-103 bg1 bor1 hov-btn2 p-lr-15 trans-04">
-
-									<b>0888.864.868</b>
-								</button>
-							</a>
-						</div>
-					</div>
-				</nav>
-			</div>
-		</div>
-
-		<!-- Header Mobile -->
-		<div class="wrap-header-mobile">
-			<!-- Logo moblie -->
-			<div class="logo-mobile">
-				<a href="index.php"><img src="images/icons/logo-01.png" alt="IMG-LOGO"></a>
-			</div>
-
-			<!-- Icon header -->
-			<div class="wrap-icon-header flex-w flex-r-m m-r-15">
-				<a href="tel:0888864868">
-					<div class="p-t-18" style="padding-top: 0px;">
-						<button class="flex-c-m stext-101 cl0 size-103 bg1 bor1 hov-btn2 p-lr-15 trans-04">
-							<b>0888.864.868</b>
-						</button>
-					</div>
-				</a>
-			</div>
-
-			<!-- Button show menu -->
-			<div class="btn-show-menu-mobile hamburger hamburger--squeeze">
-				<span class="hamburger-box">
-					<span class="hamburger-inner"></span>
-				</span>
-			</div>
-		</div>
-
-
-		<!-- Menu Mobile -->
-		<div class="menu-mobile">
-
-
-			<ul class="main-menu-m">
-
-				<li>
-					<a href="index.php">Du lịch Tây Đô</a>
-				</li>
-
-				<li>
-					<a href="product.php">Dịch vụ</a>
-				</li>
-
-				<li>
-					<a href="contact.php">Liên hệ</a>
-				</li>
-			</ul>
-		</div>
-
-	</header>
 
 
 
