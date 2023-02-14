@@ -10,7 +10,7 @@
 	<!--===============================================================================================-->
 	<link rel="icon" type="image/png" href="images/icons/favicon.png" />
 	<!--===============================================================================================-->
-		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
 	<link rel="stylesheet" type="text/css" href="fonts/linearicons-v1.0.0/icon-font.min.css">
 	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
@@ -58,36 +58,100 @@
 <body class="animsition">
 
 	<!-- Header -->
-    <header>
-      <div class="testLogo">
-        <a href="#">
-          <img src="Assets/images/Lineage_OS_Logo.png" alt="LOGO" width="100" height="50">
-        </a>
-      </div>
-      <div class="container" id="container" onclick="myFunction(this)">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </div>
-      <ul class="navbar" id="navbar">
-        <li><a>	&#127968;&nbsp;Home</a></li>
-        <li><a>&#10068;&nbsp;About us</a>
-          <ul>
-            <li><a>&#128444;&nbsp;Gallery</a></li>
-            <li><a>&#9937;&nbsp;Our Team</a></li>
-          </ul>
-        </li>
-        <li><a>&#128214;&nbsp;Portfolio</a></li>
-        <li><a>&#9743;&nbsp;Contact</a></li>
-      </ul>
-      <div id="care">
-        <button type="button" name="button" id="butn" onclick="myFunction2(this)">&#8981;</button>
-        <div class="dropdown" id="dropdown">
-          <input type="text" name="search" placeholder="Search here.." id="searchabaleWidget"/>
-          <span class="search-icon">&#8981;</span>
-        </div>
-      </div>
-    </header>
+	<header>
+		<!-- Header desktop -->
+		<div class="container-menu-desktop">
+			<!-- Topbar -->
+
+
+			<div class="wrap-menu-desktop">
+				<nav class="limiter-menu-desktop container">
+
+					<!-- Logo desktop -->
+					<a href="#" class="logo">
+						<img src="images/icons/logo-01.png" alt="IMG-LOGO">
+					</a>
+
+					<!-- Menu desktop -->
+					<div class="menu-desktop">
+						<ul class="main-menu">
+							<li>
+								<a href="index.php"><b>Du lịch Tây Đô</b></a>
+							</li>
+
+							<li>
+								<a href="product.php"><b>Dịch vụ</b></a>
+							</li>
+
+							<li>
+								<a href="contact.php"><b>Liên Hệ</b></a>
+							</li>
+						</ul>
+					</div>
+
+					<!-- Icon header -->
+					<div class="wrap-icon-header flex-w flex-r-m">
+						<div class="p-t-18" style="padding-top: 0px;">
+							<a href="tel:0888864868">
+								<button class="flex-c-m stext-101 cl0 size-103 bg1 bor1 hov-btn2 p-lr-15 trans-04">
+
+									<b>0888.864.868</b>
+								</button>
+							</a>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+
+		<!-- Header Mobile -->
+		<div class="wrap-header-mobile">
+			<!-- Logo moblie -->
+			<div class="logo-mobile">
+				<a href="index.php"><img src="images/icons/logo-01.png" alt="IMG-LOGO"></a>
+			</div>
+
+			<!-- Icon header -->
+			<div class="wrap-icon-header flex-w flex-r-m m-r-15">
+				<a href="tel:0888864868">
+					<div class="p-t-18" style="padding-top: 0px;">
+						<button class="flex-c-m stext-101 cl0 size-103 bg1 bor1 hov-btn2 p-lr-15 trans-04">
+							<b>0888.864.868</b>
+						</button>
+					</div>
+				</a>
+			</div>
+
+			<!-- Button show menu -->
+			<div class="btn-show-menu-mobile hamburger hamburger--squeeze">
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+				</span>
+			</div>
+		</div>
+
+
+		<!-- Menu Mobile -->
+		<div class="menu-mobile">
+
+
+			<ul class="main-menu-m">
+
+				<li>
+					<a href="index.php">Du lịch Tây Đô</a>
+				</li>
+
+				<li>
+					<a href="product.php">Dịch vụ</a>
+				</li>
+
+				<li>
+					<a href="contact.php">Liên hệ</a>
+				</li>
+			</ul>
+		</div>
+
+	</header>
 
 
 
