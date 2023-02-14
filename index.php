@@ -10,7 +10,7 @@
 	<!--===============================================================================================-->
 	<link rel="icon" type="image/png" href="images/icons/favicon.png" />
 	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
 	<link rel="stylesheet" type="text/css" href="fonts/linearicons-v1.0.0/icon-font.min.css">
 	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
@@ -56,82 +56,38 @@
 </head>
 
 <body class="animsition">
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Navbar</title>
-        <!-- font-awesome -->
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-        />
 
-        <!-- styles -->
-        <link rel="stylesheet" href="styles.css" />
-      </head>
-      <body>
-        <nav>
-          <div class="nav-center">
-            <!-- nav header -->
-            <div class="nav-header">
-              <h2>TekLinco</h2>
-              <!-- <img src="./logo.svg" class="logo" alt="logo" /> -->
-              <button class="nav-toggle">
-                <i class="fas fa-bars"></i>
-              </button>
-            </div>
-            <!-- links -->
-            <ul class="links">
-              <li>
-                <a href="index.html">home</a>
-              </li>
-              <li>
-                <a href="about.html">Services</a>
-              </li>
-              <li>
-                <a href="projects.html">Portfolio</a>
-              </li>
-              <li>
-                <a href="contact.html">Contact</a>
-              </li>
-            </ul>
-            <!-- social media -->
-            <ul class="social-icons">
-              <li>
-                <a href="#">
-                  <i class="fab fa-youtube"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.twitter.com">
-                  <i class="fab fa-instagram-square"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fab fa-linkedin"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fas fa-cart-plus"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        <!-- javascript -->
-        <script src="app.js"></script>
-      </body>
-    </html>
-
+	<!-- Header -->
+    <header>
+      <div class="testLogo">
+        <a href="#">
+          <img src="Assets/images/Lineage_OS_Logo.png" alt="LOGO" width="100" height="50">
+        </a>
+      </div>
+      <div class="container" id="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <ul class="navbar" id="navbar">
+        <li><a>	&#127968;&nbsp;Home</a></li>
+        <li><a>&#10068;&nbsp;About us</a>
+          <ul>
+            <li><a>&#128444;&nbsp;Gallery</a></li>
+            <li><a>&#9937;&nbsp;Our Team</a></li>
+          </ul>
+        </li>
+        <li><a>&#128214;&nbsp;Portfolio</a></li>
+        <li><a>&#9743;&nbsp;Contact</a></li>
+      </ul>
+      <div id="care">
+        <button type="button" name="button" id="butn" onclick="myFunction2(this)">&#8981;</button>
+        <div class="dropdown" id="dropdown">
+          <input type="text" name="search" placeholder="Search here.." id="searchabaleWidget"/>
+          <span class="search-icon">&#8981;</span>
+        </div>
+      </div>
+    </header>
 
 
 
